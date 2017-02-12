@@ -1,0 +1,52 @@
+﻿<Defs>
+
+<!-- Life Stages -->	
+
+	<LifeStageDef>
+		<defName>AnimalBabyFF</defName>
+		<label>baby</label>
+		<voxPitch>1.6</voxPitch>
+		<voxVolume>0.8</voxVolume>
+		<bodySizeFactor>0.125</bodySizeFactor>
+		<healthScaleFactor>0.25</healthScaleFactor>
+		<hungerRateFactor>0.5</hungerRateFactor>
+		<marketValueFactor>0.35</marketValueFactor>
+		<statFactors>
+			<MoveSpeed>0.6</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>AnimalJuvenileFF</defName>
+		<label>juvenile</label>
+		<voxPitch>1.2</voxPitch>
+		<bodySizeFactor>0.3</bodySizeFactor>
+		<healthScaleFactor>0.6</healthScaleFactor>
+		<hungerRateFactor>0.75</hungerRateFactor>
+		<marketValueFactor>0.75</marketValueFactor>
+		<statFactors>
+			<MoveSpeed>0.9</MoveSpeed>
+		</statFactors>
+	</LifeStageDef>
+
+	<LifeStageDef>
+		<defName>AnimalAdultFF</defName>
+		<label>adult</label>
+		<visible>false</visible>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+  
+	<LifeStageDef>
+		<defName>AnimalSeniorFF</defName>
+		<label>senior</label>
+		<voxPitch>0.85</voxPitch>
+		<bodySizeFactor>1.45</bodySizeFactor>
+		<hungerRateFactor>0.9</hungerRateFactor>
+		<marketValueFactor>1.2</marketValueFactor>
+		<statFactors>
+			<MoveSpeed>0.95</MoveSpeed>
+		</statFactors>
+		<reproductive>true</reproductive>
+	</LifeStageDef>
+  
+</Defs>
